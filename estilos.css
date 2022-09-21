@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ContenedorGeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.contenedor {
+  border: solid 1px;
+  padding: 20px;
+}
+.convertidor {
+  margin: 20px 0px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Button {
+  background-color: rgb(88, 247, 247);
+  border: rgb(88, 247, 247) solid 2px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+#Button:hover {
+  background-color: rgb(42, 163, 163);
+  border: rgb(42, 163, 163) solid 2px;
+  cursor: pointer;
+}
+.ContenedorTermometro {
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Termometro {
+  border: solid 1px;
+  width: 400px;
+  height: 60px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.grados {
+  background-color: red;
+  width: 0px;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

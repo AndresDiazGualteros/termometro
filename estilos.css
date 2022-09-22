@@ -10,8 +10,9 @@
   height: 800px;
 }
 .contenedor {
-  border: solid 1px;
   padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.809);
 }
 .convertidor {
   margin: 20px 0px;
@@ -54,4 +55,19 @@
   display: flex;
   justify-content: end;
   align-items: center;
+}
+.fahrenheit {
+  text-align: center;
+}
+#resultado {
+  text-align: center;
+}
+.entrada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.label {
+  margin-bottom: 30px;
 }

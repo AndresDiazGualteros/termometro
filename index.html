@@ -14,14 +14,24 @@
           <h1>Convertidor de Temperatura</h1>
         </div>
         <div class="convertidor">
-          <form action="#">
-            <label for="fahrenheit">Temperatura en grados fahrenheit</label>
-            <input type="number" class="fahrenheit" id="fahrenheit" />
+          <form action="#" class="form">
+            <div class="entrada">
+              <label for="fahrenheit" class="label"
+                >Temperatura en grados fahrenheit</label
+              >
+              <br />
+              <input type="number" class="fahrenheit" id="fahrenheit" />
+            </div>
             <div class="button">
               <button id="Button" type="button">Convertir</button>
             </div>
-            <label for="celicius">Temperatura en grados Celcius</label>
-            <input type="number" id="resultado" readonly />
+            <div class="entrada">
+              <label for="celicius" class="label"
+                >Temperatura en grados Celcius</label
+              >
+              <br />
+              <input type="number" id="resultado" disabled />
+            </div>
           </form>
           <div class="ContenedorTermometro">
             <div class="Termometro">
